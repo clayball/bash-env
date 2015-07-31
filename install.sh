@@ -4,7 +4,7 @@
 #
 # Install BASH environment
 
-printf %b "[+] Installing BASH ennviroment scripts.\n"
+printf %b "[+] Installing BASH environment scripts.\n"
 
 cp bash_profile ~/.bash_profile
 cp bashrc ~/.bashrc
