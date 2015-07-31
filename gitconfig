@@ -1,0 +1,17 @@
+[user]
+	name = YourName
+	email = YourEmail@example.com
+
+[pretty]
+	graph = %Cblue%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset
+
+[alias]
+	co = checkout
+	st = status
+	br = branch
+	lg = log --oneline --topo-order --graph --pretty=graph
+
+[color]
+	ui = true
+[push]
+	default = current
